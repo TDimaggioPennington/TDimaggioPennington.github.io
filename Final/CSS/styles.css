@@ -1,0 +1,254 @@
+/*
+Author: Tanesha Dimaggio Pennington
+Date: 4/20/24
+File Name: styles.css
+*/
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html, 
+body {
+  height: 100%;}
+
+/*style rule for Menu nav*/
+div{
+  display: block;
+  color: black;
+   font: italic small-caps bold 20px/30px Georgia, serif;
+ 
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration:none ;
+  background-color: #f1f1f1
+ 
+  
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+h1{
+    font-size:500%
+    
+  
+}
+h3{
+    font-size:200%
+    
+
+}
+img,video{
+  max-width: 100%;
+  display: block;
+}
+video{
+  margin: 0 auto 4%;
+}
+img.one {
+  height:60% ;
+  width: 60%;
+  border: 4px solid black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 150px;
+  margin-left: 300px;
+ 
+}
+
+img.two {
+  height: 50%;
+  width: 50%;
+  border: 4px solid black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 150px;
+  margin-left: 300px;
+}
+
+img.three {
+  height: 75%;
+  width: 75%;
+  border: 4px solid black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 150px;
+  margin-left: 300px;
+}
+
+img.four {
+  height: 50%;
+  width: 50%;
+  border: 4px solid black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 150px;
+  margin-left: 300px;
+}
+
+img.five {
+  height: 50%;
+  width: 50%;
+  border: 4px solid black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 150px;
+  margin-left: 300px;
+}
+
+img.six {
+  height: 50%;
+  width: 50%;
+  border: 4px solid black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 150px;
+  margin-left: 300px;
+}
+
+img.seven {
+  height: 50%;
+  width: 50%;
+  border: 4px solid black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 150px;
+  margin-left: 300px;
+}
+
+img.eight {
+  height: 50%;
+  width: 50%;
+  border: 4px solid black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 150px;
+  margin-left: 300px;
+}
+
+.figcaption{
+    font size: 18px;
+  margin-right: 150px;
+  margin-left: 300px;
+}
+</style>
+</head>
+<body>
+
+<h2>Set the height and width in %</h2>
+<p>Resize the browser window to see the effect.</p>
+
+
+/*css Reset style rule */
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, aside, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+  background-color: #fefbd8;
+}
+
+h1 {
+  background-color: #80ced6;
+}
+h1{
+  text-shadow: 2px 2px blue;
+}
+
+
+/* Style rules for body and images */
+body {
+    background-color: #FFFAFA;
+}
+
+
+
+/* Style rules for header area*/
+h1 { padding: 2%;
+    text-align: center; 
+}
+ .pinyon-script-regular {
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+ }
+ p.italic {
+  font-style: italic;
+}
+/* Style rules for video area*/
+.video{
+   border: 25pxpx solid black;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  margin-right: 150px;
+  margin-left: 300px;
+}
+
+
+    /* Style rules for table */
+
+    table, th,td {
+        border: 1px solid white;
+  border-collapse: collapse;
+    }
+
+    th, td {
+  background-color: #FAEBD7;
+}
+
+/* Style rules for fieldset*/
+
+
+textarea{
+  background-color: #FAEBD7;
+  height: 50%;
+  width: 50%;
+}
+
+
+/* Style rule for footer */
+footer {
+	font-size: .95em;
+	text-align: center;
+    color: #2f4f4f;
+
+/*Media Query for Tablet Viewpoint */
+@media  screen and (min-width: 620px), print{
+/* Tablet Viewport: Show tab-desk class, hide mobile class*/ 
+.tab-desk {
+    display: block;
+}  
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+.mobile {
+    display: none;
+}
